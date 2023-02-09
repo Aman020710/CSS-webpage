@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Julee&family=Zeyada&display=swap');
+
+
+body {
+    font-family: 'julee', sans-serif;
+    background-color: #5100;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Zeyada', cursive;
+    font-size: 4em;
+    color:#333;
+    margin-top: 40px;
+  }
+  
+  .lyrics-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2em;
+    color:#333;
+    background-color: aquamarine;
+  }
+  
+  .lyrics-line {
+    margin-bottom: 40px;
+  }
+  
+  .lyrics-line:nth-of-type(1) {
+    font-style: italic;
+  }
+  
+  main 
+  {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  footer {
+    text-align: bottom;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+     width: 100%;
+  }
